@@ -16,14 +16,14 @@ export default class Fox extends React.Component {
           style={
             {
               transform: [ 
-                {translate: [0, 0, 0]},
-                {scale: [0.1, 0.1, 0.1]}
+                {scale: [0.3, 0.3, 0.3]},
+                //{scaleY: 0.3},
+                //{scaleZ: 0.3},
               ],
-              color: '#64120c'
             }
           } 
           source={
-            {obj: asset('fox/Fox.obj'), mtl: asset('fox/Fox.mtl')}
+            {obj: asset('fox.old/model.obj'), mtl: asset('fox.old/materials.mtl')}
           } />
       </View>
     );

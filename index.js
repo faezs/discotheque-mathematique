@@ -19,13 +19,31 @@ import thunk from 'redux-thunk';
 //const store = createStore(combineReducers(reducers), applyMiddleware(thunk));
 
 export default class FBox extends React.Component {
+  /*constructor(props, context) {
+    super(props);
+    const g = '';
+    this.state({greet:})
+  }*/
   render() {
     return (
       //<Pano>
       <View style={styles.panel}>
         <View style={styles.greetingBox}>
-          <Text style={styles.greeting}>
-            Your space is currently unfilled because there is insufficient information to separate the thing from the idea of thing
+          <Text style={styles.greeting} adjustsFontSizeToFit="true">
+             Fatema,{"\n"}
+             Your space is currently primordially unfilled{"\n"}
+             because there is insufficient information{"\n"}
+             to separate the reality of the thing itself{"\n"}
+             from the mere idea of it.
+             {"\n"}
+             {"\n"}
+             (*Mild J.K* It's empty because I'm bad at world-building.)
+             {"\n"}
+             {"\n"}
+             However,{"\n"} since today marks your Hello World! moment,{"\n"}
+             here is a placeholder with and a blind fox.
+             {"\n"}
+             Happy Birthday!
           </Text>
         </View>
       </View>
@@ -39,19 +57,21 @@ const styles = StyleSheet.create({
   panel: {
     // Fill the entire surface
     width: 1000,
-    height: 600,
-    backgroundColor: 'rgba(0, 0, 0, 0)',
-    justifyContent: 'center',
+    height: 1000,
+    backgroundColor: '#d0a1a8',
+    justifyContent: 'flex-start',
     alignItems: 'center',
   },
   greetingBox: {
-    padding: 20,
-    backgroundColor: '##d0a1a8',
-    borderColor: '##d0a1a8',
-    borderWidth: 1
+    padding: 1,
+    backgroundColor: '#d0a1a8',
+    borderColor: '#d0a1a8',
+    borderWidth: 1,
   },
   greeting: {
-    fontSize: 50,
+    fontSize: 20,
+    color: '#616161',
+    fontStyle: 'italic'
   },
 });
 
