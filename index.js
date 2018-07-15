@@ -41,7 +41,7 @@ export default class FBox extends React.Component {
              {"\n"}
              {"\n"}
              However,{"\n"} since today marks your Hello World! moment,{"\n"}
-             here is a placeholder with and a blind fox.
+             here is a placeholder with an invisible blind fox.
              {"\n"}
              Happy Birthday!
           </Text>
