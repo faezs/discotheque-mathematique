@@ -1,8 +1,11 @@
 {
   "name": "fbox_1",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
+  "homepage": "https://faezs.github.io/discotheque-mathematique",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "node -e \"console.log('open browser at http://localhost:8081/index.html\\n\\n');\" && node node_modules/react-native/local-cli/cli.js start",
     "build": "node node_modules/react-360/scripts/bundle.js",
     "open": "node -e \"require('xopen')('http://localhost:8081/index.html')\"",
@@ -10,6 +13,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "react": "16.0.0",
     "react-360": "~1.0.0",
     "react-360-web": "~1.0.0",
