@@ -2,7 +2,6 @@
   "name": "fbox_1",
   "version": "0.0.1",
   "private": false,
-  "homepage": "https://github.com/faezs/discotheque-mathematique",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
