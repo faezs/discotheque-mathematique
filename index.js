@@ -30,20 +30,7 @@ export default class FBox extends React.Component {
       <View style={styles.panel}>
         <View style={styles.greetingBox}>
           <Text style={styles.greeting} adjustsFontSizeToFit="true">
-             Fatema,{"\n"}
-             Your space is currently primordially unfilled{"\n"}
-             because there is insufficient information{"\n"}
-             to separate the reality of the thing itself{"\n"}
-             from the mere idea of it.
-             {"\n"}
-             {"\n"}
-             (*Mild J.K* It's empty because I'm bad at world-building.)
-             {"\n"}
-             {"\n"}
-             However,{"\n"} since today marks your Hello World! moment,{"\n"}
-             here is a placeholder with an invisible blind fox.
-             {"\n"}
-             Happy Birthday!
+            placeholder. 
           </Text>
         </View>
       </View>
